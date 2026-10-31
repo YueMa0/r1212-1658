@@ -1,0 +1,5 @@
+graph r4_strong_candidate_1657.graph: n = 1657, text sha256 a3eb1cd2c1f67eb14f2fe2e207c64292616df3fa0b0d95454db4d4e614411219
+tasks expected 3314, recorded 3314; results {'none': 3314}
+nodes 219393730505; cpu 15.38 h; longest task 171.798 s (v = 10, c = 1, m = 834)
+RESULT: no monochromatic K12 (every task "none", all 3314 tasks present)
+CHECK: PASS

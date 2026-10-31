@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this colouring, please cite it as below, together with Tatarevic's paper and r1212-1642."
+title: "R(12,12) ≥ 1658: a colouring of K_1657 and computer checks"
+authors:
+  - family-names: Ma
+    given-names: Yue
+version: 1.0.0
+date-released: "2026-10-30"
+license: MIT
+repository-code: "https://github.com/YueMa0/r1212-1658"
+abstract: "A red/blue colouring of the complete graph on 1657 vertices with no monochromatic K_12, so R(12,12) ≥ 1658. It consists of the Mathon colouring M(797) and 61 added vertices, each a copy of a certificate vertex or constant on the rest of M(797). Checked by an exhaustive computer search and by a clone-projection argument. The work was done with Claude (Claude Opus 5.5, Anthropic), starting from exploratory work by GPT-6 Astra (OpenAI); see the README."
+keywords:
+  - Ramsey numbers
+  - lower bounds
+references:
+  - type: article
+    authors:
+      - family-names: Tatarevic
+        given-names: Milos
+    title: "A constructive two-parameter Ramsey increment"
+    year: 2026
+    url: "https://arxiv.org/abs/2608.06531"
+  - type: software
+    authors:
+      - family-names: Ma
+        given-names: Yue
+    title: "R(12,12) ≥ 1642: a colouring of K_1641, a Lean proof and computer checks"
+    doi: 10.5281/zenodo.23770924
+    repository-code: "https://github.com/YueMa0/r1212-1642"

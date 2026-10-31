@@ -1,0 +1,25 @@
+name: Quick checks of the colouring
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  quick-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install numpy networkx
+      - name: SHA-256 of the colouring
+        working-directory: graph
+        run: sha256sum --check SHA256SUMS
+      - name: Clone projection check
+        run: python verify/check_projection.py graph/r1212_1657.graph
+      - name: Output check of the recorded exhaustive search
+        if: hashFiles('verify/results/candidate_1657.jsonl') != ''
+        run: python verify/check_bruteforce_output.py graph/r1212_1657.graph verify/results/candidate_1657.jsonl --t 12

@@ -1,0 +1,5 @@
+graph r1212_1641.graph: n = 1641, text sha256 9550a1745bfa46e595b24bc44f279aed86199c72d8f6e5483080296055c8e485
+tasks expected 2, recorded 2; results {'none': 2}
+nodes 978325468; cpu 0.06 h; longest task 108.961 s (v = 10, c = 1, m = 821)
+reference bruteforce_r1212_1641.jsonl: compared m, result and nodes task by task
+CHECK: PASS

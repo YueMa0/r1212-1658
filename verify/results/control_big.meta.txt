@@ -1,0 +1,5 @@
+start 2026-10-30 14:15:19 EDT
+graph control_big_1657.graph sha256 fc6bf3a9d60cb3e7155391ded5bf9fbd7709cd3326c03b9c0add189eccf16310
+binary_sha256 37720b5518cc0592263f47a44a99cf32c40f0cf16b32d1f5901de6e2ae249273
+command bruteforce_kclique control_big_1657.graph 12 control_big.jsonl 8 0 10 11
+end 2026-10-30 14:17:02 EDT rc=0

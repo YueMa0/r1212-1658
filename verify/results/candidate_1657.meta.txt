@@ -1,0 +1,5 @@
+start 2026-10-30 14:17:13 EDT
+graph r4_strong_candidate_1657.graph sha256 a3eb1cd2c1f67eb14f2fe2e207c64292616df3fa0b0d95454db4d4e614411219
+binary_sha256 37720b5518cc0592263f47a44a99cf32c40f0cf16b32d1f5901de6e2ae249273
+command bruteforce_kclique r4_strong_candidate_1657.graph 12 candidate_1657.jsonl 8 
+end 2026-10-30 16:12:34 EDT rc=0

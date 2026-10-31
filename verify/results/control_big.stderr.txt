@@ -1,0 +1,2 @@
+n=1657 t=12 tasks=2 threads=8 cap=0
+finished: found=1 timeout=0

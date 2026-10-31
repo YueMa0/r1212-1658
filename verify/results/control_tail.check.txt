@@ -1,0 +1,7 @@
+graph control_tail_1657.graph: n = 1657, text sha256 88a4c9e34d399ca0bd252926cb45dcf07138380692d94ba377097fbe8fb63611
+spec control_tail: 28 pairs differ from r4_strong_candidate_1657.graph, all inside the planted set: True
+tasks expected 24, recorded 24; results {'found': 1, 'none': 23}
+nodes 11; cpu 0.00 h; longest task 0.0 s (v = 1646, c = 1, m = 10)
+monochromatic K12 in colour 1 (1 = red): [1645, 1656, 1655, 1654, 1653, 1652, 1651, 1650, 1649, 1648, 1647, 1646]
+RESULT: the planted K12 was found with a valid witness; all other tasks "none"
+CHECK: PASS

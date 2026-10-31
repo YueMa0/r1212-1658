@@ -1,0 +1,69 @@
+{
+ "control_tail": {
+  "graph": "control_tail_1657.graph",
+  "base": "../../graph/r1212_1657.graph",
+  "planted": [
+   1645,
+   1646,
+   1647,
+   1648,
+   1649,
+   1650,
+   1651,
+   1652,
+   1653,
+   1654,
+   1655,
+   1656
+  ],
+  "colour": 1,
+  "vrange": [
+   1645,
+   1657
+  ],
+  "expect_found": [
+   [
+    1645,
+    1
+   ]
+  ],
+  "pairs_changed": 28,
+  "text_sha256": "88a4c9e34d399ca0bd252926cb45dcf07138380692d94ba377097fbe8fb63611",
+  "seed": null,
+  "what": "the last 12 vertices made a red clique"
+ },
+ "control_big": {
+  "graph": "control_big_1657.graph",
+  "base": "../../graph/r1212_1657.graph",
+  "planted": [
+   10,
+   105,
+   168,
+   325,
+   356,
+   435,
+   782,
+   800,
+   1036,
+   1097,
+   1269,
+   1632
+  ],
+  "colour": 1,
+  "vrange": [
+   10,
+   11
+  ],
+  "expect_found": [
+   [
+    10,
+    1
+   ]
+  ],
+  "pairs_changed": 31,
+  "text_sha256": "fc6bf3a9d60cb3e7155391ded5bf9fbd7709cd3326c03b9c0add189eccf16310",
+  "seed": 20261030,
+  "what": "11 random vertices of P(10, red) (|P| = 834), the largest task, made a red clique with 10"
+ },
+ "_note": "Planted controls for bruteforce_kclique: in each graph the listed vertices form a red K12 whose smallest vertex is expect_found[0][0], so that task must be \"found\". The graph differs from the base only on pairs inside the planted set."
+}

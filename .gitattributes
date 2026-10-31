@@ -1,0 +1,8 @@
+# Keep the byte hashes stable on every checkout, Windows included.
+*.py text eol=lf
+*.sh text eol=lf
+*.c text eol=lf
+*.yml text eol=lf
+*.graph -text
+verify/results/** -text
+verify/controls/** -text
