@@ -1,5 +1,7 @@
 # R(12,12) ≥ 1658
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23827702.svg)](https://doi.org/10.5281/zenodo.23827702)
+
 This repository contains a red/blue colouring of the complete graph K₁₆₅₇ with no monochromatic K₁₂, so R(12,12) ≥ 1658.
 
 To our knowledge this improves the best published lower bound, R(12,12) ≥ 1641 (M. Tatarevic, [arXiv:2608.06531](https://arxiv.org/abs/2608.06531), August 2026), and our earlier R(12,12) ≥ 1642 ([r1212-1642](https://github.com/YueMa0/r1212-1642), [doi:10.5281/zenodo.23770924](https://doi.org/10.5281/zenodo.23770924)). The literature search was made on 30 October 2026. The result has not been peer reviewed.
@@ -80,7 +82,7 @@ python3 verify/check_bruteforce_output.py graph/r1212_1657.graph verify/results/
 
 ## How to cite
 
-Citation metadata is in [CITATION.cff](CITATION.cff). Please cite Tatarevic's paper and r1212-1642 as well.
+Version 1.0.0 is archived on Zenodo: [doi:10.5281/zenodo.23827703](https://doi.org/10.5281/zenodo.23827703). To cite all versions, use [doi:10.5281/zenodo.23827702](https://doi.org/10.5281/zenodo.23827702). Citation metadata is in [CITATION.cff](CITATION.cff); GitHub shows it under "Cite this repository". Please cite Tatarevic's paper and r1212-1642 as well.
 
 ## License
 
