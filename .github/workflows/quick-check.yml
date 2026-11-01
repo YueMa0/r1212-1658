@@ -23,3 +23,15 @@ jobs:
       - name: Output check of the recorded exhaustive search
         if: hashFiles('verify/results/candidate_1657.jsonl') != ''
         run: python verify/check_bruteforce_output.py graph/r1212_1657.graph verify/results/candidate_1657.jsonl --t 12
+      # The steps below do not run Lean; lean/audit/README.md says how to build the proof.
+      - name: SHA-256 of the Lean sources
+        working-directory: lean
+        run: sha256sum --check audit/sources.sha256
+      - name: Data.lean is generated from the colouring
+        working-directory: lean
+        run: |
+          python gen/gen_data.py ../graph/r1212_1657.graph --out "$RUNNER_TEMP/Data.lean"
+          cmp "$RUNNER_TEMP/Data.lean" RamseyIncrement/R1658/Data.lean
+      - name: The colouring defined in Lean is the published file
+        working-directory: lean
+        run: python tools/compare_export.py ../graph/r1212_1657.graph

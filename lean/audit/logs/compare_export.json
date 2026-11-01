@@ -1,0 +1,20 @@
+{
+ "graph_sha256": "a3eb1cd2c1f67eb14f2fe2e207c64292616df3fa0b0d95454db4d4e614411219",
+ "data_lean_sha256": "51de11ba763a519a09ff7c2f5e3db8046c47b8791da70fe8e5477a3982888ba9",
+ "rebuild_from_data_lean": {
+  "pairs": 2745649,
+  "first_differences": [],
+  "identical": true
+ },
+ "lean_core_rows": {
+  "file_sha256": "202bdfd6566c95bb8f7196708f451e56796f34982cc30a7142aa69e9aa8a2926",
+  "rows": 26,
+  "identical_rows": 26,
+  "differing_rows": []
+ },
+ "lean_full_export_prefix": {
+  "bytes": 98304,
+  "complete_rows": 59,
+  "identical": true
+ }
+}

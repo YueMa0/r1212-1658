@@ -1,0 +1,10 @@
+theorem RamseyIncrement.R1658.badRow_spec :
+  forall (c : Bool) (i : Nat),
+  LT.lt i (OfNat.ofNat 81) → (forall (j : Nat),
+  LT.lt j (OfNat.ofNat 81) → Eq (Nat.testBit (RamseyIncrement.R1658.badRow c i) j)
+    (RamseyIncrement.R1658.badB c i j)) :=
+  _
+
+axiom propext {a b : Prop} : Iff a b → Eq a b
+
+Checked 689 declarations with no errors
