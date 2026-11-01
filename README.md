@@ -112,7 +112,7 @@ It ends by printing the axioms of the main theorems; lean/audit/logs/axioms.log 
 
 ## How to cite
 
-Each release is archived on Zenodo. To cite all versions, use [doi:10.5281/zenodo.23827702](https://doi.org/10.5281/zenodo.23827702). Version 1.0.0, without the Lean proof, is [doi:10.5281/zenodo.23827703](https://doi.org/10.5281/zenodo.23827703). Citation metadata is in [CITATION.cff](CITATION.cff); GitHub shows it under "Cite this repository". Please cite Tatarevic's paper and r1212-1642 as well.
+Each release is archived on Zenodo. To cite all versions, use [doi:10.5281/zenodo.23827702](https://doi.org/10.5281/zenodo.23827702). Version 1.1.0, which adds the Lean proof, is [doi:10.5281/zenodo.23862550](https://doi.org/10.5281/zenodo.23862550); version 1.0.0, without it, is [doi:10.5281/zenodo.23827703](https://doi.org/10.5281/zenodo.23827703). Citation metadata is in [CITATION.cff](CITATION.cff); GitHub shows it under "Cite this repository". Please cite Tatarevic's paper and r1212-1642 as well.
 
 ## License
 
